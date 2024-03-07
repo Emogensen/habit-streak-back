@@ -26,7 +26,6 @@ app.use((err: Error, req: AuthRequest, res: Response, next: NextFunction) => {
       .json({ success: false, message: err.message });
   }
 
-  console.error(err);
   res
     .status(500)
     .json({ success: false, message: "An unexpected error occurred" });
