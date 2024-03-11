@@ -145,7 +145,7 @@ authRouter.get(
   extractAccessToken,
   auth,
   (req: Request, res: Response) => {
-    res.json({ success: true, message: "Token is valid" });
+    res.status(200).send({ success: true, message: "Token is valid" });
   }
 );
 
