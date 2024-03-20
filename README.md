@@ -1,4 +1,4 @@
-# HABIT STREAK
+# HABIT STREAK BACKEND
 
 ## Description
 
@@ -11,7 +11,7 @@ Built with the robustness of TypeScript, the efficiency of Node.js, the flexibil
 - [Install Node](https://nodejs.org/en)
 - [Install npm](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm)
 - Install dependencies `npm install`
-- Add a file for env variables in the root directory `touch .env` (on Unix systems) `type nul >> .env` (on Windows) or just add it manually
+- Add a file for env variables in the root directory `touch .env` (on Unix systems), `type nul >> .env` (on Windows) or just add it manually
 - Add the following variables to your .env file:
 
 ```bash
@@ -23,7 +23,7 @@ REFRESH_SECRET = secret
 
 - [Set up a MongoDB Cluster](https://www.mongodb.com/docs/guides/atlas/cluster/)
 - [Get connection string](https://www.mongodb.com/docs/guides/atlas/connection-string/)
-- Add your database connection string to yout `DB_URI`-variable
+- Add your database connection string to your `DB_URI`-variable
 - Generate a random Base64 string and add it to your `JWT_SECRET`-variable
 - Generate a random Base64 string and add it to your `REFRESH_SECRET`-variable
 - Start dev server `npm dev`
